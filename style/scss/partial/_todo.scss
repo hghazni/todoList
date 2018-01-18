@@ -1,0 +1,36 @@
+.todo__container.container {
+    text-align: center;
+}
+
+.todo {
+  h1 {
+    color: #26a69a;
+    font-size: 4rem;
+    font-weight: 100;
+    margin-bottom: 0;
+  }
+}
+
+//List
+.todoList__container {
+  display: grid;
+}
+
+#todoInput {
+  width: 60%;
+  display: block;
+  margin: 2% auto;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #34c5c2;
+}
+
+#todoList {
+  width: max-content;
+  margin: auto;
+  padding: 1rem 0 0 0;
+  li {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+}
